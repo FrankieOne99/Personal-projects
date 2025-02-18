@@ -1,12 +1,24 @@
 .nav {
   background-color: var(--navcolor);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .navlist {
   display: flex;
   flex-direction: row;
-  list-style: none;
-  justify-content: space-around;
   align-items: center;
-  padding: 1rem 1rem;
+}
+
+.navlink {
+  list-style: none;
+  padding: 1.5rem; /* Puoi aumentare il padding per un menù più spazioso */
+  color: aliceblue;
+}
+
+.logo img {
+  object-fit: contain;
+  padding: 0.3rem 0.5rem;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
 }
