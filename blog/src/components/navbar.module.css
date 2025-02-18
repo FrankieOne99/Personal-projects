@@ -1,0 +1,12 @@
+.nav {
+  background-color: var(--navcolor);
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 1rem;
+}
